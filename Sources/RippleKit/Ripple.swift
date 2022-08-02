@@ -96,7 +96,6 @@ public struct Ripple {
                 result.insert(extracted)
             }
         }
-        print(result)
         return result
     }
     public func echoMessage(arguments: String) {
