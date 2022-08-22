@@ -50,6 +50,7 @@ This command will search in current folder and skip `Pods` folder. It is recomme
 You can integrate Ripple into your Xcode build process, so every time you build your project Ripple informs you about all unused localized strings.
 
 Add a "Run Script" phase in the Build Phases tab:
+
 ![image](https://user-images.githubusercontent.com/11717088/185915297-5244d438-a884-4d94-99ba-71e5f3bed78c.png)
 
 And add this:
@@ -61,3 +62,7 @@ else
   echo "warning: Ripple not installed, download from https://github.com/EdoardoB/Ripple"
 fi
 ```
+## How Ripple works
+1. Search all .strings file and extract all localized keys 🔎
+2. Use regular expression to search unused localized key in project ⚙️
+3. Reports unused localized key ⚠️
