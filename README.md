@@ -1,6 +1,6 @@
 # Ripple 🌊
 
-Welcome to **Ripple** - a command line tool that reports unused localization strings in your Xcode project.
+**Ripple** - a command line tool that reports unused localization strings in your Xcode project.
 
 ## Install
 
